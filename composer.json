@@ -1,0 +1,29 @@
+{
+  "name": "yiisolutions/yii2-yql",
+  "type": "yii2-extension",
+  "description": "Yahoo Query Language for Yii2",
+  "keywords": ["yii2", "yahoo", "yql", "data"],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiisolutions/yii2-yql/issues",
+    "source": "https://github.com/yiisolutions/yii2-yql"
+  },
+  "authors": [
+    {
+      "name": "Memory Clutter",
+      "email": "memclutter@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-httpclient": "~2.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yiisolutions\\yql\\": "src/"
+    }
+  }
+}
